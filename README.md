@@ -9,13 +9,13 @@ But I managed it!!
 # create a new branch
 git checkout -b new_branch
 git push -u origin new_branch
-/ when you create a new branch on your local machine, 
+when you create a new branch on your local machine, 
 Git does not know where to send those tracked changes because that branch is only on your local machine. 
-So git push is needed/
+So git push is needed
 git push -u origin new_branch
 
 # make changes and merge
-/ in repo's new branch make changes, go to pull request, merge changes /
-/ in terminal, pull to get the changes to the local. /
+in repo's new branch make changes, go to pull request, merge changes
+in terminal, pull to get the changes to the local
 git pull
 
